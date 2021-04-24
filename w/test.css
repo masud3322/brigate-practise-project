@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{margin:0;padding:0;}
+body{
+    font-family: 'Work Sans', sans-serif
+  
+}  
+
+
+.topbarmain{
+    background:#f5f5f5;
+    height:35px;
+} 
+.container {
+    width: 800px;
+    padding-right: 15px;
+    padding-left: 69px;
+
+    margin: auto;
+}
+
+
+.phone {
+    width: 200px;
+    float: left;
+    border-left: 2px solid #ddd;
+border-right: 1px solid #ddd;
+padding: 7px;
+}
+i.fas.fa-phone {
+    margin-right: 8px;
+}
+
+.email {
+    width: 378px;
+    float: left;
+    border-left: 2px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 7px;
+}
+i.fas.fa-envelope {
+    margin-right: 3px;
+}
+
+.social {
+    width: 727px;
+    transition:.3s;
+}
+.social i:hover{
+    color:#ff5200;
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 9px;
+    color: #2b2b2b;
+    border-right: 1px solid #ddd;
+}
+
+.social a:first-child{
+    border-left:1px solid #ddd;
+}
+
+
+
+
+.phone i{color:#ff5200;}
+.email i{color:#ff5200;}
+
+
+.topbarwrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo {width: 157px;float: left;margin-top: 10px;}
+
+.menu {
+    width: 544px;
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 18px 7px;
+    text-transform: uppercase;
+    display: block;
+    font-family: oswald;
+    color:black;
+    font-weight:500;
+    transition:.5s;
+}
+ul.mainmenu {
+    float: right;
+}
+li.searchbatton {
+    margin-top: 2px;
+}
+ul a:hover{
+    color:#ff5200;
+}
+
+#homeslider{
+    background:url(HD-1080p-wallpapera-free-download-for-laptop-620x349.jpg);
+    background-repeat:no-repeat;
+    background-position:100%;
+}
+
+.slidebarcontent {
+    color: #fff;
+    width: 300px;
+}
+
+.slidercontent p {
+    font-size: bold;
+    width: 500px;
+}
+
+p {
+    font-size: 14px;
+    padding: 20px 2px;
+    margin-bottom: 7px;
+    font-weight: 532px;
+    font-family: 'Oswald', sans-serif;
+ 
+}
+
+h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+button#slideworkbutton {
+    padding: 11px 18px;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    background: #ff5200;
+    border: none;
+    color: #fff;
+    font-weight: 600px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom:60px;
+}
+
